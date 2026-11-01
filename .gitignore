@@ -1,0 +1,22 @@
+# Segredos e ambiente
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.*
+credentials*.json
+
+# Material interno e dados (não versionar)
+*.pdf
+dados/
+data/
+uploads/
+
+# Gerados / locais
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+*.mp4
+*.mkv
